@@ -5,7 +5,7 @@ export GOPATH
 DATE := `date '+%Y%m%d'`
 WITH_ENV = env `cat .env 2>/dev/null | xargs`
 
-NAME:=timid
+NAME:=
 ROOF:=$(NAME)
 TAG:=`git describe --tags --always`
 LDFLAGS:=-X $(ROOF)/config.Version=$(DATE).$(TAG)
