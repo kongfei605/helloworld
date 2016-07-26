@@ -126,15 +126,15 @@ setprompt () {
     # Finally, the prompt.
 
     PROMPT='$PR_SETrCHARSET$PR_STITLE${(e)PR_TITLEBAR}\
-$PR_CYAN$PR_ULCORNER$PR_HBAR$PR_GREY(\
-$PR_CYAN%(!.%SROOT%s.%n)$PR_GREY@$PR_GREEN%m:%l$PR_GREY)\
-$PR_GREY($PR_GREEN%$PR_PWDLEN<...<%~%<<\
+$PR_BLUE$PR_ULCORNER$PR_HBAR$PR_GREY(\
+$PR_BLUE%(!.%SROOT%s.%n)$PR_GREY@$PR_GREY%m:%l$PR_GREY)\
+$PR_GREY($PR_GREY%$PR_PWDLEN<...<%~%<<\
 $PR_LIGHT_BLUE%{$reset_color%}`git_prompt_info``git_prompt_status`$PR_GREY)\
-$PR_CYAN$PR_HBAR$PR_HBAR${(e)PR_FILLBAR}$PR_HBAR\
+$PR_GREY$PR_HBAR$PR_HBAR${(e)PR_FILLBAR}$PR_HBAR\
 $PR_CYAN$PR_HBAR$PR_URCORNER\
 
 $PR_CYAN$PR_LLCORNER$PR_BLUE$PR_HBAR(\
-$PR_YELLOW%D{%Y-%m-%d %H:%M:%S}\
+$PR_BLUE%D{%Y-%m-%d %H:%M:%S}\
 $PR_BLUE)\
 $PR_HBAR\
 >$PR_NO_COLOUR '
